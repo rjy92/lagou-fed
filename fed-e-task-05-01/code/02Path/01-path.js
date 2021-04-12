@@ -19,9 +19,9 @@ console.log(path.basename('/a/b/c/')) */
 /**
  * 01 返回路径中最后一个部分的上一层目录所在路径
  */
-/* console.log(path.dirname(__filename))
+console.log(path.dirname(__filename))
 console.log(path.dirname('/a/b/c'))
-console.log(path.dirname('/a/b/c/')) */
+console.log(path.dirname('/a/b/c/'))
 
 // 3 获取路径的扩展名
 /**

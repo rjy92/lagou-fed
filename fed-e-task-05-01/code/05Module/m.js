@@ -10,8 +10,8 @@ module.exports = {
 } */
 
 // 二、module 
-/* module.exports = 1111
-console.log(module) */
+module.exports = 1111
+console.log(module)
 
 // 三、exports 
 // exports.name = 'zce'
@@ -31,5 +31,5 @@ console.log('m.js被加载导入了') */
 
 /* console.log(require.main == module) */
 
-module.exports = 'lg'
+// module.exports = 'lg'
 

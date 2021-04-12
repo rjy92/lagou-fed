@@ -17,6 +17,33 @@ console.log(process.platform) */
 console.log(process.argv0)  // execArgv
 console.log(process.pid) */  // ppid 
 
-setTimeout(() => {
+/* setTimeout(() => {
   console.log(process.uptime())
-}, 3000)
+}, 3000) */
+
+/* process.on('exit',(code)=>{
+  setTimeout(()=>{
+  console.log("exit")
+  },1000)
+  console.log("exit"+code)
+})
+process.on('beforeExit',(code)=>{
+  console.log("beforeExit"+code)
+})
+
+console.log("finally ")
+
+process.exit() */
+
+//5 标准输入 输出 错误
+/* console.log = function(data){
+  process.stdout.write("---"+data+'\n')
+
+}
+
+console.log(123)
+console.log(345) */
+
+
+const fs = require('fs')
+fs.createReadStream('test.txt').pipe(process.stdout)
