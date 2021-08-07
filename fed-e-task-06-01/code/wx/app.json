@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/qweather/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/camera",
+    "pages/test/test"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "51CTO学院企业版",
+    "navigationBarTextStyle":"black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "尝试获取你的位置信息"
+    }
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/qweather/index",
+      "iconPath": "static/images/featured.png",
+      "selectedIconPath": "static/images/featured-actived.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/test/test",
+      "iconPath": "static/images/featured.png",
+      "selectedIconPath": "static/images/featured-actived.png",
+      "text": "测试"
+    },
+     {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "static/images/search.png",
+      "selectedIconPath": "static/images/search-actived.png",
+      "text": "日志"
+    },{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/images/profile.png",
+      "selectedIconPath": "static/images/profile-actived.png",
+      "text": "用户"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

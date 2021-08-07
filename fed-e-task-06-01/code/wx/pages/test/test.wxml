@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<button type="primary" bindtap="goCamera" style="margin: 20px 0; width: 100%;">去拍照</button>
+
+<!-- 引入页脚 -->
+<import src="../../tpl/footer.wxml"></import>
+<template is="my-footer" data=""></template>
