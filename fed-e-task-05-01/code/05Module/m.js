@@ -15,7 +15,9 @@ console.log(module)
 
 // 三、exports 
 // exports.name = 'zce'
-/* exports = {
+/* 
+不可给exports 赋值，只使用exports.age=18 这种方式。
+exports = {
   name: 'syy',
   age: 18
 } */
